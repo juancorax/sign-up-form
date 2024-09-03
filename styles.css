@@ -1,0 +1,111 @@
+@font-face {
+  font-family: "Norse Bold";
+  src: url(assets/Norse-Bold.otf);
+}
+
+body {
+  margin: 0;
+  display: flex;
+  font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+aside {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  background-image: url(assets/halie-west-25xggax4bSA-unsplash.jpg);
+  background-size: cover;
+}
+
+.logo {
+  height: 125px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-top: 100px;
+}
+
+.logo > img {
+  width: 80px;
+  height: auto;
+}
+
+.logo > p {
+  color: white;
+  font-family: "Norse Bold";
+  font-size: 5rem;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  flex: 3;
+  height: 100vh;
+}
+
+section {
+  flex: 1;
+  padding: 80px 50px 0 50px;
+}
+
+form {
+  flex: 3;
+  padding: 0 50px 0 50px;
+}
+
+.container {
+  display: flex;
+}
+
+.container > div {
+  padding: 10px 50px 10px 0;
+}
+
+label {
+  display: block;
+  font-size: 0.7rem;
+  letter-spacing: 2px;
+  color: #222222;
+}
+
+input {
+  border: 2px solid #e5e7eb;
+  border-radius: 5px;
+}
+
+input:invalid {
+  border: 1px solid #ffb3b3;
+}
+
+input:focus {
+  border: 1px solid #a8d8ff;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.submit-button {
+  padding: 25px 0;
+}
+
+button {
+  background-color: #596d48;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 10px 25px;
+  border-radius: 5px;
+  border: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color: #596d48;
+}
+
+a:visited {
+  color: #d9822b;
+}
